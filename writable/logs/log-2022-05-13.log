@@ -1,0 +1,654 @@
+CRITICAL - 2022-05-13 10:20:09 --> Undefined variable $clientes
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\clientes.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Pichau...', 101)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('/clientes', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(193): view('/clientes', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->mostraCategorias()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 10:20:26 --> Invalid file: /categorias.php
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/categorias.php')
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('/categorias', Array, true)
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(193): view('/categorias', Array)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->mostraCategorias()
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#8 {main}
+ERROR - 2022-05-13 11:55:20 --> Cannot delete or update a parent row: a foreign key constraint fails (`gamerspace`.`categoriaproduto`, CONSTRAINT `categoriaproduto_ibfk_1` FOREIGN KEY (`categoria`) REFERENCES `categoria` (`id`))
+CRITICAL - 2022-05-13 12:14:39 --> Too few arguments to function App\Controllers\Home::updateCategoriaToDB(), 0 passed in C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->updateCategoriaToDB()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#5 {main}
+CRITICAL - 2022-05-13 12:15:06 --> Too few arguments to function App\Controllers\Home::updateCategoriaToDB(), 0 passed in C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->updateCategoriaToDB()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#5 {main}
+CRITICAL - 2022-05-13 12:20:38 --> Undefined array key "id"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 115)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->updateCategoriaToDB()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 12:22:23 --> Undefined array key "num"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 115)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->updateCategoriaToDB()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 12:24:58 --> Undefined property: App\Controllers\Home::$input
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Pichau...', 115)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->updateCategoriaToDB()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 12:26:59 --> Undefined property: App\Controllers\Home::$uri
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Pichau...', 115)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->updateCategoriaToDB()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 14:43:40 --> Undefined variable $produto
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Pichau...', 99)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('/descricaoDoCli...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(235): view('/descricaoDoCli...')
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 15:14:58 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\formEditarProduto.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 63)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('formEditarProdu...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(184): view('formEditarProdu...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->editarProduto()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 15:15:31 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\formEditarProduto.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 63)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('formEditarProdu...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(184): view('formEditarProdu...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->editarProduto()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 15:18:10 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\formEditarProduto.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 63)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('formEditarProdu...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(184): view('formEditarProdu...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->editarProduto()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 15:52:23 --> Undefined array key "id"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 285)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 15:56:02 --> Undefined array key "id"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 285)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 15:56:41 --> Undefined array key "id"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(285): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 285)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 16:00:07 --> Undefined variable $cliente
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Pichau...', 95)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('/descricaoDoCli...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(294): view('/descricaoDoCli...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:00:45 --> Undefined array key "cpf"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 95)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('/descricaoDoCli...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(294): view('/descricaoDoCli...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:03:22 --> Undefined array key "cpf"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 95)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(293): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:05:16 --> Call to undefined method App\Models\ClientsProductsModel::getData
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(290): CodeIgniter\Model->__call('getData', Array)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 16:06:30 --> Too few arguments to function App\Models\ClientsModel::getData(), 0 passed in C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php on line 262 and exactly 1 expected
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(262): App\Models\ClientsModel->getData()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->mostraClientes()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 16:08:49 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 95)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(293): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:09:15 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 95)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(293): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:17:16 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 95)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(288): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:18:53 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 95)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(288): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:19:18 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 107)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(288): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:21:46 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 107)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(288): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:26:54 --> Undefined array key "id"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 284)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 16:57:16 --> foreach() argument must be of type array|object, null given
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\Users\\Pichau...', 111)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(287): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 16:57:33 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 112)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(287): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 17:00:05 --> Cannot access offset of type string on string
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(287): view('descricaoDoClie...', Array)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#9 {main}
+ERROR - 2022-05-13 17:09:50 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-05-13 17:09:50 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Models\ProductsModel.php(32): CodeIgniter\BaseModel->first()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(291): App\Models\ProductsModel->getProduct(Array)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#8 {main}
+CRITICAL - 2022-05-13 17:11:50 --> Cannot access offset of type string on string
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(293): view('descricaoDoClie...', Array)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#9 {main}
+CRITICAL - 2022-05-13 17:12:12 --> Undefined variable $produto
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Pichau...', 112)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(293): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 17:20:24 --> Cannot access offset of type string on string
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(295): view('descricaoDoClie...', Array)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#9 {main}
+ERROR - 2022-05-13 17:22:45 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-05-13 17:22:45 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Models\ProductsModel.php(36): CodeIgniter\BaseModel->first()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(301): App\Models\ProductsModel->getName(Array)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#8 {main}
+CRITICAL - 2022-05-13 17:25:05 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Pichau...')
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#8 {main}
+CRITICAL - 2022-05-13 17:25:25 --> foreach() argument must be of type array|object, null given
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\Users\\Pichau...', 116)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(40): view('home', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 17:26:25 --> foreach() argument must be of type array|object, null given
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\Users\\Pichau...', 116)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(40): view('home', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 17:30:36 --> Cannot use object of type stdClass as array
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(40): view('home', Array)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#9 {main}
+CRITICAL - 2022-05-13 17:31:40 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(315): view('descricaoDoClie...', Array)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#9 {main}
+CRITICAL - 2022-05-13 17:31:57 --> Undefined variable $datas
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Pichau...', 43)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:33:26 --> Attempt to read property "produto" on string
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\Pichau...', 44)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:33:36 --> Attempt to read property "produtos" on string
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\Pichau...', 44)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:33:49 --> Attempt to read property "produtos" on string
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\Pichau...', 44)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:36:46 --> Object of class stdClass could not be converted to string
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#5 {main}
+CRITICAL - 2022-05-13 17:37:14 --> Object of class stdClass could not be converted to string
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#5 {main}
+CRITICAL - 2022-05-13 17:40:17 --> Undefined array key "produto"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 49)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:40:29 --> Undefined array key "produto"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 49)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:43:34 --> Undefined array key "produto"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 112)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(324): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 17:43:42 --> Array to string conversion
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\Pichau...', 51)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:44:08 --> Undefined array key "produto"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 112)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(324): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 17:47:31 --> Array to string conversion
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\Pichau...', 52)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:47:53 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(52): array_push(NULL, Array)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:48:22 --> Array to string conversion
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\Pichau...', 52)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:49:49 --> Undefined array key 0
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 50)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->filtrar()
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#6 {main}
+CRITICAL - 2022-05-13 17:53:21 --> Undefined array key "preco"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 113)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(329): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 18:05:52 --> Undefined array key "quantidade"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 113)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(329): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 18:06:13 --> Undefined array key "quantidade"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 114)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(329): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 18:10:50 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 120)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(329): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 18:20:51 --> Trying to access array offset on value of type null
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\Pichau...', 128)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(329): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 18:35:19 --> Undefined variable $subtotal
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Pichau...', 151)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(329): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 18:36:20 --> Undefined variable $subtotal
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\descricaoDoCliente.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Pichau...', 155)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('descricaoDoClie...', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(329): view('descricaoDoClie...', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoCliente()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 23:24:08 --> Undefined array key "id"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\detalharProduto.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 99)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('detalharProduto', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(129): view('detalharProduto', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoProduto()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
+CRITICAL - 2022-05-13 23:40:26 --> Undefined array key "id"
+#0 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Views\detalharProduto.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Pichau...', 99)
+#1 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('C:\\Users\\Pichau...')
+#2 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('detalharProduto', Array, true)
+#4 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(129): view('detalharProduto', Array)
+#5 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->descricaoDoProduto()
+#6 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Pichau\Documents\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Pichau...')
+#10 {main}
